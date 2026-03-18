@@ -25,7 +25,37 @@ const stats = [
     value: "100+",
     label: "Content Pieces",
     description: "Original educational content produced"
-  }
+  },
+{
+  icon: Students,
+  value: "+1200",
+  label: "Students trained",
+  description: "Empowering the next generation of tech talent across multiple learning tracks"
+},
+{
+  icon: Calendar,
+  value: "+80",
+  label: "Events & sessions",
+  description: "Hands-on workshops, bootcamps, and technical sessions delivered consistently"
+},
+{
+  icon: Users,
+  value: "+25",
+  label: "Instructors",
+  description: "Industry-driven mentors leading real-world focused technical education"
+},
+{
+  icon: Globe,
+  value: "2",
+  label: "Chapters Opened",
+  description: "Expanding presence through chapters and partnerships across campuses"
+///},
+///{
+  ///icon: Code,
+  ///value: "",
+  ///label: "Projects built",
+  ///description: "Practical projects developed by students to bridge theory and real-world skills"
+}
 ];
 
 export default function Achievements() {
