@@ -36,7 +36,7 @@ export default function Hero() {
               </h1>
 
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-xl">
-                Netizens Team is a youth-driven movement empowering students with real-world skills in tech, business, and innovation. Beyond theory, we build the future.
+                Netizens Team is a youth-driven movement empowering students with real-world skills in tech, business, and innovation. Beyond theory, we build the future by turning students into builders, not just learners.
               </p>
 
               {/* Buttons */}
