@@ -45,7 +45,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3 group cursor-pointer">
           <div className="relative w-10 h-10 overflow-hidden rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-300">
             <img 
-              src={logoImage} 
+              src="/Logo.png" 
               alt="Netizens Logo" 
               className="w-full h-full object-cover"
             />
