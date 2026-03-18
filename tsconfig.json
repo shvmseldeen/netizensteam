@@ -1,5 +1,11 @@
 {
-  "include": ["client/src/**/*", "shared/**/*", "server/**/*"],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "client/src/**/*",
+    "shared/**/*",
+    "server/**/*"
+  ],
   "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
   "compilerOptions": {
     "incremental": true,
