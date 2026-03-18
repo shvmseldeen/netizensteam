@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Terminal, Users, Briefcase, Share2 } from "lucide-react";
+import { Terminal, Users, Briefcase, Share2, Code } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 const initiatives = [
@@ -55,7 +55,7 @@ We operate as a system designed to build real tech talent.
                 
                 <CardHeader>
                   <div className={`w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center mb-4 border border-white/10 group-hover:border-primary/30 transition-colors duration-300`}>
-                    <item.icon className={`w-6 h-6 ${item.color}`} />
+                    <item.icon className={`w-6 h-6 ${item.icon}`} />
                   </div>
                   <CardTitle className="text-xl font-bold text-foreground">{item.title}</CardTitle>
                 </CardHeader>
