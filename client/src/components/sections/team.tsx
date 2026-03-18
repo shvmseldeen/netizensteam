@@ -18,7 +18,7 @@ const team = [
   },
   {
     name: "Andrew Amgad",
-    role: "CMO",
+    role: "Co-Founder & CMO",
     initials: "AE",
     image: "/team/andrew.png"
   },
