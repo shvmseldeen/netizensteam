@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Trophy, Calendar, Users, FileText } from "lucide-react";
+import { Trophy, Calendar, Users, FileText, EarthIcon, RocketIcon } from "lucide-react";
 
 const stats = [
   {
@@ -27,11 +27,11 @@ const stats = [
     description: "Original educational content produced"
   },
 {
-  icon: Rocket,
+  icon: RocketIcon,
   value: "+1200",
   label: "Builders, not students",
   description: "We don’t just teach tech — we build real developers ready for the industry"
-}
+  },
 {
   icon: Calendar,
   value: "+80",
@@ -45,7 +45,7 @@ const stats = [
   description: "Industry-driven mentors leading real-world focused technical education"
 },
 {
-  icon: Globe,
+  icon: EarthIcon,
   value: "2",
   label: "Chapters Opened",
   description: "Expanding presence through chapters and partnerships across campuses"
