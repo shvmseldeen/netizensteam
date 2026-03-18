@@ -6,7 +6,8 @@
     "scripts": {
         "dev:client": "vite dev --port 5000",
         "dev": "next dev",
-        "start": "nextt,
+        "build": "next build",
+        "start": "next start",
         "check": "tsc",
         "db:push": "drizzle-kit push"
     },
