@@ -5,27 +5,23 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 const initiatives = [
   {
     icon: Terminal,
-    title: "Education",
-    description: "Hands-on workshops, bootcamps, and training in Cybersecurity, AI, Programming, and more.",
-    color: "text-primary"
+    title: "Technical Education",
+    description: "Structured learning paths in Programming, AI, and Cybersecurity focused on real-world application.",
   },
   {
     icon: Users,
-    title: "Community",
-    description: "A growing network of university chapters driving collaboration, events, and peer support.",
-    color: "text-accent"
+    title: "Community Building",
+    description: "Student-led chapters, events, and a strong network connecting ambitious tech-driven students.",
+  },
+  {
+    icon: Code,
+    title: "Real-World Experience",
+    description: "Projects, hackathons, and challenges that turn learners into builders with practical skills.",
   },
   {
     icon: Briefcase,
-    title: "Opportunities",
-    description: "Job fairs, freelance bootcamps, competitions, and project-based experiences for career growth.",
-    color: "text-blue-400"
-  },
-  {
-    icon: Share2,
-    title: "Content",
-    description: "High-value social media content that educates, inspires, and simplifies complex tech topics.",
-    color: "text-purple-400"
+    title: "Career Preparation",
+    description: "Soft skills, leadership, and real exposure to industry expectations and career paths.",
   }
 ];
 
@@ -37,9 +33,10 @@ export default function WhatWeDo() {
 
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">What We Do</h2>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">What We Actually Do?</h2>
           <p className="text-muted-foreground text-lg">
-            We don't just offer services; we build ecosystems. From intensive bootcamps to community-led chapters.
+           We’re not just a community.
+We operate as a system designed to build real tech talent.
           </p>
         </div>
 
