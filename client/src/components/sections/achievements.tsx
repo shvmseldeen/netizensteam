@@ -27,11 +27,11 @@ const stats = [
     description: "Original educational content produced"
   },
 {
-  icon: Students,
+  icon: Rocket,
   value: "+1200",
-  label: "Students trained",
-  description: "Empowering the next generation of tech talent across multiple learning tracks"
-},
+  label: "Builders, not students",
+  description: "We don’t just teach tech — we build real developers ready for the industry"
+}
 {
   icon: Calendar,
   value: "+80",
