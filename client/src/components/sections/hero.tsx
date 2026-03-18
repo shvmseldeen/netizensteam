@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Terminal, Code2, Rocket, ChevronDown } from "lucide-react";
+import { ArrowRight, Terminal, Code2, Rocket } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -36,7 +36,7 @@ export default function Hero() {
               </h1>
 
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-xl">
-                Netizens Team is a youth-driven movement transforming students into builders of tomorrow. Learn, create, and lead — we make it happen beyond classrooms.
+                Netizens Team is a youth-driven movement empowering students with real-world skills in tech, business, and innovation. Beyond theory, we build the future by turning students into builders, not just learners.
               </p>
 
               {/* Buttons */}
@@ -46,7 +46,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="lg" className="text-base px-8 h-12 shadow-lg shadow-primary/30 rounded-full bg-primary hover:bg-primary/90 text-white border-0 animate-pulse">
+                  <Button size="lg" className="text-base px-8 h-12 shadow-lg shadow-primary/20 rounded-full bg-primary hover:bg-primary/90 text-white border-0">
                     Join the Movement
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
@@ -84,15 +84,6 @@ export default function Hero() {
                 <span className="text-sm font-medium">Innovation</span>
               </div>
             </motion.div>
-
-            {/* Scroll Cue */}
-            <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ repeat: Infinity, duration: 1.5 }}
-              className="mt-12 flex justify-center"
-            >
-              <ChevronDown className="w-8 h-8 text-primary animate-bounce" />
-            </motion.div>
           </div>
 
           {/* Visual Content */}
@@ -105,6 +96,8 @@ export default function Hero() {
             <div className="relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-gradient-to-br from-secondary to-black p-8 flex items-center justify-center group neon-glow">
               <div className="relative w-full h-full flex items-center justify-center">
                 <div className="absolute w-64 h-64 bg-primary/30 rounded-full blur-[80px] animate-pulse" />
+
+                {/* Central Logo */}
                 <div className="relative z-10 w-32 h-32 flex items-center justify-center">
                   <img 
                     src="/Logo.png"
@@ -112,12 +105,16 @@ export default function Hero() {
                     className="w-full h-full object-contain rounded-xl drop-shadow-[0_0_15px_rgba(147,51,234,0.5)]"
                   />
                 </div>
+
+                {/* Floating Icons */}
                 <div className="absolute top-10 right-10 p-3 bg-black/40 backdrop-blur-md rounded-xl border border-white/10 shadow-xl animate-[float_4s_ease-in-out_infinite]">
                   <Terminal className="w-6 h-6 text-accent" />
                 </div>
                 <div className="absolute bottom-16 left-12 p-3 bg-black/40 backdrop-blur-md rounded-xl border border-white/10 shadow-xl animate-[float_5s_ease-in-out_infinite_1s]">
                   <Code2 className="w-6 h-6 text-primary" />
                 </div>
+
+                {/* Circuit Overlay */}
                 <svg className="absolute inset-0 w-full h-full opacity-20" viewBox="0 0 100 100" preserveAspectRatio="none">
                   <path d="M10,50 Q30,20 50,50 T90,50" stroke="url(#grad1)" strokeWidth="0.5" fill="none" />
                   <path d="M10,30 Q40,60 70,30" stroke="url(#grad1)" strokeWidth="0.5" fill="none" />
@@ -131,6 +128,8 @@ export default function Hero() {
                 </svg>
               </div>
             </div>
+
+            {/* Decorative Background Shape */}
             <div className="absolute -bottom-10 -right-10 w-2/3 h-2/3 bg-gradient-to-br from-primary to-accent opacity-10 rounded-full blur-[80px] -z-10" />
           </motion.div>
         </div>
