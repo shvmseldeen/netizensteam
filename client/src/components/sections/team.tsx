@@ -7,38 +7,38 @@ const team = [
     name: "Shams El Deen Mohamed",
     role: "Founder & CEO",
     initials: "SM",
-    image: "/team/shams.jpg"
+    image: "/team/founder.jpg"
 
   },
   {
     name: "Rawan Essam",
     role: "Co-Founder & HOC",
     initials: "RE",
-    image: "/team/rawan.jpg"
+    image: "/team/hoc.jpg"
   },
   {
     name: "Andrew Amgad",
     role: "Co-Founder & CMO",
     initials: "AE",
-    image: "/team/andrew.png"
+    image: "/team/cmo.png"
   },
   {
     name: "Abd-ElRahman",
     role: "CTO",
     initials: "RA",
-    image: "/team/abdo.jpg"
+    image: "/team/cto.jpg"
   },
   {
     name: "Tasneem Morsy",
     role: "Events Manager",
     initials: "RA",
-    image: "/team/tasneem.jpg"
+    image: "/team/EM.jpg"
   },
   {
     name: "Afnan Ahmed",
     role: "HR Manager",
     initials: "RA",
-    image: "/team/afnan.jpg"
+    image: "/team/hrm.jpg"
   }
 ];
 
